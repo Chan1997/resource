@@ -1,0 +1,197 @@
+/* top navbar */
+@media only screen and (max-width: 767px) {
+    .sidebar-toggle {
+        z-index: 296 !important;
+    }
+
+    .topnavbar .navbar-nav > li > a, .topnavbar .navbar-nav > .open > a {
+        color: #ffffff !important;
+    }
+
+}
+
+/* for login,register and reset password */
+@media screen and (min-width: 400px) and (max-width: 550px) {
+    .wd-xl {
+        width: 360px !important;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .wd-xxl, .wd-xl {
+        width: 320px !important;
+    }
+}
+
+/* for new task */
+@media screen and (max-width: 1123px) {
+    .modal-dialog {
+        width: auto !important;
+    }
+}
+
+@media screen and (max-width: 1205px) {
+    #map-container, #table-container {
+        width: 100% !important;
+        z-index: 2202020 !important;
+    }
+}
+
+
+/* for dashboard */
+@media screen and (max-width: 1500px) {
+    .flot-x-axis.flot-x1-axis.xAxis.x1Axis{
+        right:initial !important;
+    }
+}
+
+@media screen and (max-width: 890px) {
+    .flot-x-axis.flot-x1-axis.xAxis.x1Axis{
+        font-size: 0px !important;
+    }
+}
+
+
+/* teams page */
+
+@media screen and (max-width: 766px) {
+    .modal-backdrop {
+        position: relative !important;
+    }
+}
+
+
+/* drivers page */
+@media screen and (max-width: 604px) {
+    #form-group-phone2{
+        height:78px !important;
+    }
+}
+@media screen and (max-width: 604px) {
+    /*#driveroptionsmenu{*/
+    /*margin-top: 30px !important; margin-bottom: 30px !important;*/
+    /*}*/
+    #add-driver-btn{
+        margin-right: 3px !important
+    }
+    #filter-driver{
+        margin-right: -2px !important;
+    }
+}
+@media screen and (max-width: 1200px) {
+    #edit-driver-image-form-group{
+        float:left  !important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .page-header{
+        font-size:18px !important;
+    }
+    #filter-driver{
+        /*margin-top:5px !important;*/
+    }
+    #driveroptionsmenu,#taskOptions{
+        float: right;
+        margin-bottom: -20px !important;
+        margin-top: 0px !important;
+    }
+}
+@media screen and (max-width: 340px) {
+    #filter-driver {
+        margin-top: 5px !important;
+        margin-right: -10px !important;
+    }
+    #filter-tasks {
+        margin-top: 5px !important;
+    }
+}
+
+/* Settings Page */
+
+@media screen and (max-width: 450px) {
+    #input-group{
+        width: 30% !important;
+    }
+    #settings-phone{
+        width: 70% !important;
+    }
+}
+
+/* dispatcher page */
+
+@media screen and (max-width: 400px) {
+    #add-on2{
+        padding:7px !important;
+       padding-left: 10px !important;
+    }
+}
+
+
+
+@media screen and (max-width: 400px) {
+    .billing-header-change-plan{
+        width: 54% !important;
+    }
+}
+
+
+/* all atsks page verison 2 */
+@media screen and (max-width: 600px){
+    #taskOptions{
+        margin-top: 15px !important;
+    }
+}
+
+
+/* dashboard */
+@media screen and (max-width: 400px){
+    .nav-wrapper .navbar-nav .open .dropdown-menu{
+        font-size:14px !important;
+    }
+}
+
+@-moz-document url-prefix() {
+    #alltaskscaret {
+       margin-top:-10px !important;
+    }
+}
+
+
+.modal-body input[type="file"] {
+    cursor:pointer;
+}
+
+
+
+/*biiling*/
+
+@media screen and (max-width: 995px){
+.payment-footer{
+    margin-top:38px !important;
+}
+}
+@media screen and (max-width: 400px){
+    .col-lg-3.billingtile{
+        margin-left: -25px !important;
+    }
+
+    .col-lg-3 .billlingPanel{
+        width:92% !important;
+    }
+
+    .recommend_img{
+      margin-left:178px !important;
+    }
+
+}
+
+@media screen and (max-width: 815px){
+    .col-lg-4.custom-billing-col-lg-4{
+        width:100% !important;
+        margin-bottom:10px !important;
+        float: left !important;
+    }
+}
+
+
